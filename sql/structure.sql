@@ -1,3 +1,6 @@
+CREATE DATABASE `supel-discos`;
+USE `supel-discos`;
+
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
