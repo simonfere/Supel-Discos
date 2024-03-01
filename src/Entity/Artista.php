@@ -20,7 +20,7 @@ class Artista
     private ?string $pais = null;
 
     #[ORM\Column(length: 255, nullable: true)]
-    private ?string $año = null;
+    private ?string $ano = null;
 
     public function getId(): ?int
     {
@@ -51,14 +51,13 @@ class Artista
         return $this;
     }
 
-    public function getAño(): ?string
+    public function getAno(): ?string
     {
-        return $this->año;
+        return $this->ano;
     }
-
-    public function setAño(?string $año): static
+    public function setAno(?string $ano): static
     {
-        $this->año = $año;
+        $this->ano = $ano;
 
         return $this;
     }
