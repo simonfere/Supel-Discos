@@ -7,6 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 use Symfony\Bridge\Doctrine\Security\User\UserLoaderInterface;
+use function PHPUnit\Framework\throwException;
 
 class LoginController extends AbstractController
 {
@@ -25,4 +26,10 @@ class LoginController extends AbstractController
             'error' => $error,
         ]);
     }
+
+    #[Route('/logout', name: 'app_logout')]
+    public function logOut () : void {
+        throw new \LogicException("This method can be blank - It will be intercepted by the logout key on your firewall");
+    }
 }
+
