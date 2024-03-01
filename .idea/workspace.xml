@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Admin/admin.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Creación de CRUD controllers de las tres entidades con atributos especificados">
       <change beforePath="$PROJECT_DIR$/src/Controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Artista.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Artista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +219,7 @@
       <workItem from="1708899813523" duration="75000" />
       <workItem from="1708977078300" duration="1877000" />
       <workItem from="1709119478840" duration="69000" />
-      <workItem from="1709304441632" duration="7406000" />
+      <workItem from="1709304441632" duration="7985000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios a 25/2 a las 23:24">
       <option name="closed" value="true" />
@@ -255,7 +245,47 @@
       <option name="project" value="LOCAL" />
       <updated>1708977990116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Añadida fotografía para la página de login">
+      <option name="closed" value="true" />
+      <created>1709312375297</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709312375297</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Añadido EasyAdmin y configurado la página principal del controlador">
+      <option name="closed" value="true" />
+      <created>1709312440989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709312440989</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Migración realizada para actualizar los cambios de tablas">
+      <option name="closed" value="true" />
+      <created>1709312573361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709312573361</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modificada la plantilla twig con la extensión a la libreria EasyAdmin">
+      <option name="closed" value="true" />
+      <created>1709312602846</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709312602846</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creación de CRUD controllers de las tres entidades con atributos especificados">
+      <option name="closed" value="true" />
+      <created>1709312637912</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709312637912</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +305,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambios a 25/2 a las 23:24" />
     <MESSAGE value="Añadida la configuración del entorno de desarrollo .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadida la configuración del entorno de desarrollo .idea" />
+    <MESSAGE value="Añadida fotografía para la página de login" />
+    <MESSAGE value="Añadido EasyAdmin y configurado la página principal del controlador" />
+    <MESSAGE value="Migración realizada para actualizar los cambios de tablas" />
+    <MESSAGE value="Modificada la plantilla twig con la extensión a la libreria EasyAdmin" />
+    <MESSAGE value="Creación de CRUD controllers de las tres entidades con atributos especificados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de CRUD controllers de las tres entidades con atributos especificados" />
   </component>
 </project>
