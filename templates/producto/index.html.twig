@@ -1,20 +1,11 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ProductoController!{% endblock %}
+{% block title %}Todos los productos{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
-
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/home/daw/supel-discos/src/Controller/ProductoController.php</code></li>
-        <li>Your template at <code>/home/daw/supel-discos/templates/producto/index.html.twig</code></li>
-    </ul>
-</div>
+        {{ include('components/navbar.html.twig') }}
+        <h1>{{ producto.nombre }}</h1>
+        <h2>{{ producto.artista }}</h2>
+        <h6>{{ producto.anoSalida }}</h6>
+        <h4>{{ producto.precio }}€</h4>
 {% endblock %}
