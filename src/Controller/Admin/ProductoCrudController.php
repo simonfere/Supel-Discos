@@ -22,7 +22,7 @@ class ProductoCrudController extends AbstractCrudController
         return [
             IdField::new('id')->hideOnForm(),
             TextField::new('nombre'),
-            AssociationField::new('artista')->autocomplete(),
+            AssociationField::new('artista'),
             TextField::new('ano_salida'),
             TextField::new('precio'),
             TextField::new('pais'),
