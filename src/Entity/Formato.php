@@ -22,6 +22,11 @@ class Formato
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $info_adicional = null;
 
+    public function __toString(): string
+    {
+        return $this->tipo;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
