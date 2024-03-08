@@ -6,7 +6,8 @@ use App\Repository\LineaPedidoRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: LineaPedidoRepository::class)]
-class LineaPedido
+class LineaPedido // id, q, pu, idpr, idpe
+    // entidad pedido id, shipping 
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
