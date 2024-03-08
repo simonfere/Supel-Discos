@@ -36,6 +36,7 @@ security:
     # Easy way to control access for large sections of your site
     # Note: Only the *first* access control that matches will be used
     access_control:
+        - {path: '^profile', roles: ROLE_USER}
         # matches /admin/users/*
         - { path: '^/admin/users', roles: ROLE_SUPER_ADMIN }
         # matches /admin/* except for anything matching the above rule
