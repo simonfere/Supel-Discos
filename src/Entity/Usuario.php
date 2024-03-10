@@ -41,10 +41,20 @@ class Usuario implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\OneToMany(targetEntity: Valoracion::class, mappedBy: 'id_usuario')]
     private Collection $valoracions;
 
+    #[ORM\OneToMany(targetEntity: Pedido::class, mappedBy: 'usuario')]
+    private Collection $pedidos;
+
     public function __construct()
     {
         $this->valoracions = new ArrayCollection();
+        $this->pedidos = new ArrayCollection();
     }
+
+    public function __toString(): string
+    {
+       return $this->email;
+    }
+
 
     public function getId(): ?int
     {
@@ -176,6 +186,36 @@ class Usuario implements UserInterface, PasswordAuthenticatedUserInterface
             // set the owning side to null (unless already changed)
             if ($valoracion->getIdUsuario() === $this) {
                 $valoracion->setIdUsuario(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Pedido>
+     */
+    public function getPedidos(): Collection
+    {
+        return $this->pedidos;
+    }
+
+    public function addPedido(Pedido $pedido): static
+    {
+        if (!$this->pedidos->contains($pedido)) {
+            $this->pedidos->add($pedido);
+            $pedido->setUsuario($this);
+        }
+
+        return $this;
+    }
+
+    public function removePedido(Pedido $pedido): static
+    {
+        if ($this->pedidos->removeElement($pedido)) {
+            // set the owning side to null (unless already changed)
+            if ($pedido->getUsuario() === $this) {
+                $pedido->setUsuario(null);
             }
         }
 
