@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FormatoController!{% endblock %}
+
+{% block body %}
+    {% include('components/navbar.html.twig') %}
+
+    <h1>Álbumes en {{ formato.tipo }} </h1>
+
+    {% for producto in productos %}
+        <li><a href="{{ path('app_productos', { id: producto.id}) }}">{{ producto.artista }} - {{ producto.nombre }} ({{ producto.anoSalida }})</a></li>
+    {% endfor %}
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        li {
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+    </style>
+
+{% endblock %}
