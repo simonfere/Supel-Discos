@@ -4,20 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Realizadas diferentes migraciones respecto a los cambios y cambios en la carpeta del IDE">
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD">
+      <change afterPath="$PROJECT_DIR$/templates/pedido/all.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductoCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/UsuarioCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/UsuarioCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AllProductosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AllProductosController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Artista.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Artista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Formato.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Formato.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Direccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Direccion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/LineaPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/LineaPedido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Pedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pedido.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Producto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/LineaPedidoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/LineaPedidoRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/PedidoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PedidoRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UsuarioRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UsuarioRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/all_productos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_productos/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/img_login.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -252,7 +266,17 @@
       <workItem from="1709822560020" duration="6801000" />
       <workItem from="1709835471344" duration="1451000" />
       <workItem from="1709901773282" duration="99000" />
-      <workItem from="1709902083502" duration="1241000" />
+      <workItem from="1709902083502" duration="2200000" />
+      <workItem from="1709920307828" duration="5544000" />
+      <workItem from="1709937090965" duration="3515000" />
+      <workItem from="1709947008583" duration="2536000" />
+      <workItem from="1709984502030" duration="9873000" />
+      <workItem from="1709997362145" duration="199000" />
+      <workItem from="1709997742211" duration="4514000" />
+      <workItem from="1710072978637" duration="846000" />
+      <workItem from="1710076311821" duration="3959000" />
+      <workItem from="1710086217860" duration="3282000" />
+      <workItem from="1710092433703" duration="6473000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios a 25/2 a las 23:24">
       <option name="closed" value="true" />
@@ -374,7 +398,87 @@
       <option name="project" value="LOCAL" />
       <updated>1709508897097</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Añadida la función toString para facilitar acciones en el CRUD">
+      <option name="closed" value="true" />
+      <created>1709904058659</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904058659</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Añadida la función toString para facilitar acciones en el CRUD">
+      <option name="closed" value="true" />
+      <created>1709904066978</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904066978</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Creada la misma página para home y productos, también añadida la página individual de producto">
+      <option name="closed" value="true" />
+      <created>1709904141094</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904141094</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Creado un controlador con su plantilla para mostrar el peril del usuario">
+      <option name="closed" value="true" />
+      <created>1709904174627</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904174627</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Creada la entidad Pedido">
+      <option name="closed" value="true" />
+      <created>1709904187156</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904187156</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Cambios menores">
+      <option name="closed" value="true" />
+      <created>1709904205561</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904205561</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Cambios menores en la navbar">
+      <option name="closed" value="true" />
+      <created>1709904221048</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904221048</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Añadido el nuevo rol ROLE_USER">
+      <option name="closed" value="true" />
+      <created>1709904239491</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904239491</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Creada la funcion toSring">
+      <option name="closed" value="true" />
+      <created>1709904283326</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904283326</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD">
+      <option name="closed" value="true" />
+      <created>1709904326214</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709904326214</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,6 +510,31 @@
     <MESSAGE value="Añadidos atributos a la entidad Producto, incluida la relación con Artista y Formato" />
     <MESSAGE value="Creados CRUD controllers de Producto y Formato, así como añadidos al dasboardController" />
     <MESSAGE value="Realizadas diferentes migraciones respecto a los cambios y cambios en la carpeta del IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizadas diferentes migraciones respecto a los cambios y cambios en la carpeta del IDE" />
+    <MESSAGE value="Añadida la función toString para facilitar acciones en el CRUD" />
+    <MESSAGE value="Creada la misma página para home y productos, también añadida la página individual de producto" />
+    <MESSAGE value="Creado un controlador con su plantilla para mostrar el peril del usuario" />
+    <MESSAGE value="Creada la entidad Pedido" />
+    <MESSAGE value="Cambios menores" />
+    <MESSAGE value="Cambios menores en la navbar" />
+    <MESSAGE value="Añadido el nuevo rol ROLE_USER" />
+    <MESSAGE value="Creada la funcion toSring" />
+    <MESSAGE value="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/AllProductosController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Repository/UsuarioRepository.php</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
