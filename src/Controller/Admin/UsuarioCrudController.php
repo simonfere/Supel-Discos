@@ -28,7 +28,8 @@ class UsuarioCrudController extends AbstractCrudController
                 ->allowMultipleChoices()
                 ->setChoices([
                     'Rol Usuario' => 'ROLE_USER',
-                    'Rol Admin' => 'ROLE_ADMIN'
+                    'Rol Admin' => 'ROLE_ADMIN',
+                    'Rol Manager' => 'ROLE_MANAGER'
 
                 ]),
             TextField::new('password'),
