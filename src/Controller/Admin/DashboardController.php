@@ -5,6 +5,8 @@ namespace App\Controller\Admin;
 use App\Entity\Artista;
 use App\Entity\Direccion;
 use App\Entity\Formato;
+use App\Entity\LineaPedido;
+use App\Entity\Pedido;
 use App\Entity\Producto;
 use App\Entity\Usuario;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
@@ -56,5 +58,9 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Usuario', 'fas fa-list', Usuario::Class);
         yield MenuItem::section('Dirección');
         yield MenuItem::linkToCrud('Dirección', 'fas fa-list', Direccion::Class);
+        yield MenuItem::section('Pedido');
+        yield MenuItem::linkToCrud('Pedido', 'fas fa-list', Pedido::Class);
+        yield MenuItem::section('Linea de Pedido');
+        yield MenuItem::linkToCrud('Linea de Pedido', 'fas fa-list', LineaPedido::Class);
     }
 }
