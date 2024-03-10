@@ -55,6 +55,14 @@ class UsuarioRepository extends ServiceEntityRepository implements PasswordUpgra
         ->setParameter('query', $usernameOrEmail)
         ->getOneOrNullResults();
     }
+
+//    public function getUserById (int $id) {
+//        $entityManager = $this->getEntityManager();
+//
+//        return $entityManager->createQuery(
+//            SELECT
+//        )
+//    }
 //    /**
 //     * @return Usuario[] Returns an array of Usuario objects
 //     */
@@ -79,4 +87,15 @@ class UsuarioRepository extends ServiceEntityRepository implements PasswordUpgra
 //            ->getOneOrNullResult()
 //        ;
 //    }
+
+    public function findUsuarioByEmail (string $email) {
+
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT u.id FROM App\Entity\Usuario u WHERE u.email  = :email'
+        )->setParameter('email', $email);
+
+        return $query->getOneOrNullResult();
+    }
 }
