@@ -8,18 +8,32 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ path('app_home') }}">
                 Supel-Discos
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ path('mostrar_todos_productos') }}">productos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">buscador</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        formatos
+                    </a>
+                    <ul class="dropdown-menu">
+                        {% for formato in formatos %}
+                            <li><a class="dropdown-item" href="{{ path('prod_por_formato', {id: formato.id}) }}">{{ formato.tipo }}</a></li>
+                        {% endfor %}
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ path('app_profile') }}">mi perfil</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        mi perfil
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ path('app_profile') }}">ver perfil</a></li>
+                        <li><a class="dropdown-item" href="{{ path('app_logout') }}">cerrar sesión</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
