@@ -34,6 +34,12 @@ class Direccion
     #[ORM\Column(length: 255)]
     private ?string $pais = null;
 
+    public function __toString(): string
+    {
+        return $this->ciudad;
+    }
+
+
     public function getId(): ?int
     {
         return $this->id;
