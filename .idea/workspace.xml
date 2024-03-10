@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD">
-      <change afterPath="$PROJECT_DIR$/templates/pedido/all.html.twig" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Creadas plantillas controllers para Formato, Manager y Pedido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/UsuarioCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/UsuarioCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AllProductosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AllProductosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Direccion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Direccion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/LineaPedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/LineaPedido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Pedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pedido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Producto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/LineaPedidoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/LineaPedidoRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PedidoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PedidoRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UsuarioRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UsuarioRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/all_productos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_productos/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/img_login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,6 +252,8 @@
       <workItem from="1710076311821" duration="3959000" />
       <workItem from="1710086217860" duration="3282000" />
       <workItem from="1710092433703" duration="6473000" />
+      <workItem from="1710099994221" duration="963000" />
+      <workItem from="1710108224732" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios a 25/2 a las 23:24">
       <option name="closed" value="true" />
@@ -478,7 +455,199 @@
       <option name="project" value="LOCAL" />
       <updated>1709904326214</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Añadido al DashboardController la sección para pedido y para línea de pedido">
+      <option name="closed" value="true" />
+      <created>1710100084864</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100084864</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Añadida la extensión ext-intl en el composer.json para poder trabajar con fechas desde el CRUD">
+      <option name="closed" value="true" />
+      <created>1710100127998</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100127998</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Añadido el rol de Manager a security.yaml">
+      <option name="closed" value="true" />
+      <created>1710100161319</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100161319</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Eliminada la imagen para el login">
+      <option name="closed" value="true" />
+      <created>1710100178047</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100178047</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Añadida seguridad y formatos para que trabaje el navbar.html.twig">
+      <option name="closed" value="true" />
+      <created>1710100214978</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100214978</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Desarrolladas las entidades LineaPedido y Pedido, y añadidos métodos para obtener datos">
+      <option name="closed" value="true" />
+      <created>1710100283768</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100283768</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Añadida la función __toString a la entidad Direccion.php">
+      <option name="closed" value="true" />
+      <created>1710100320114</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100320114</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Añadidos los formatos para el navbar y un carousel a modo de prueba">
+      <option name="closed" value="true" />
+      <created>1710100366965</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100366965</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Añadida la función __toString y relación con la entidad Pedidos">
+      <option name="closed" value="true" />
+      <created>1710100452338</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100452338</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Añadido el rol manager en el CRUD controller del Usuario">
+      <option name="closed" value="true" />
+      <created>1710100543026</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100543026</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Añadida la relación con la entidad LineaPedidos">
+      <option name="closed" value="true" />
+      <created>1710100564996</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100564996</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Añadida seguridad y formatos para navbar.html.twig">
+      <option name="closed" value="true" />
+      <created>1710100586908</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100586908</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Desarrollado el controlador del perfil">
+      <option name="closed" value="true" />
+      <created>1710100636365</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100636365</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Añadida función para encontrar un producto según su formato">
+      <option name="closed" value="true" />
+      <created>1710100666791</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100666791</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Cambios menores">
+      <option name="closed" value="true" />
+      <created>1710100678704</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100678704</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Añadida función para encontrar usuario por email">
+      <option name="closed" value="true" />
+      <created>1710100703704</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100703704</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Añadido el dropdown con los distintos formatos de los productos">
+      <option name="closed" value="true" />
+      <created>1710100730967</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100730967</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Desarrolladas las plantillas de producto, perfil y all_productos">
+      <option name="closed" value="true" />
+      <created>1710100770671</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100770671</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Creada la plantilla para mostrar todos los pedidos que ha realizado un usuario">
+      <option name="closed" value="true" />
+      <created>1710100795500</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100795500</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Migraciones varaias">
+      <option name="closed" value="true" />
+      <created>1710100822991</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100822991</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Migraciones varias">
+      <option name="closed" value="true" />
+      <created>1710100834899</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100834899</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Creados controladores para Formato, Pedido y Manager">
+      <option name="closed" value="true" />
+      <created>1710100870612</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100870612</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Creados CRUD controllers para LineaPedido y Pedido">
+      <option name="closed" value="true" />
+      <created>1710100901178</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100901178</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Creadas plantillas controllers para Formato, Manager y Pedido">
+      <option name="closed" value="true" />
+      <created>1710100932007</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1710100932007</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,30 +665,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cambios a 25/2 a las 23:24" />
-    <MESSAGE value="Añadida la configuración del entorno de desarrollo .idea" />
-    <MESSAGE value="Añadida fotografía para la página de login" />
-    <MESSAGE value="Añadido EasyAdmin y configurado la página principal del controlador" />
-    <MESSAGE value="Migración realizada para actualizar los cambios de tablas" />
-    <MESSAGE value="Modificada la plantilla twig con la extensión a la libreria EasyAdmin" />
-    <MESSAGE value="Creación de CRUD controllers de las tres entidades con atributos especificados" />
-    <MESSAGE value="Cambiada la &quot;ñ&quot; de año por una &quot;n&quot; (a eso se debía la migración realizada en el commit pasado)" />
-    <MESSAGE value="Cambios en el XML del IDE" />
-    <MESSAGE value="Añadida función de logout para el correcto funcionamiento del EasyAdmin" />
-    <MESSAGE value="Añadida función que por defecto te asigna el rol de usuario en la página de registro" />
-    <MESSAGE value="Añadidos atributos a la entidad Producto, incluida la relación con Artista y Formato" />
-    <MESSAGE value="Creados CRUD controllers de Producto y Formato, así como añadidos al dasboardController" />
-    <MESSAGE value="Realizadas diferentes migraciones respecto a los cambios y cambios en la carpeta del IDE" />
-    <MESSAGE value="Añadida la función toString para facilitar acciones en el CRUD" />
-    <MESSAGE value="Creada la misma página para home y productos, también añadida la página individual de producto" />
-    <MESSAGE value="Creado un controlador con su plantilla para mostrar el peril del usuario" />
-    <MESSAGE value="Creada la entidad Pedido" />
-    <MESSAGE value="Cambios menores" />
-    <MESSAGE value="Cambios menores en la navbar" />
-    <MESSAGE value="Añadido el nuevo rol ROLE_USER" />
-    <MESSAGE value="Creada la funcion toSring" />
     <MESSAGE value="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD" />
+    <MESSAGE value="Añadido al DashboardController la sección para pedido y para línea de pedido" />
+    <MESSAGE value="Añadida la extensión ext-intl en el composer.json para poder trabajar con fechas desde el CRUD" />
+    <MESSAGE value="Añadido el rol de Manager a security.yaml" />
+    <MESSAGE value="Eliminada la imagen para el login" />
+    <MESSAGE value="Añadida seguridad y formatos para que trabaje el navbar.html.twig" />
+    <MESSAGE value="Desarrolladas las entidades LineaPedido y Pedido, y añadidos métodos para obtener datos" />
+    <MESSAGE value="Añadida la función __toString a la entidad Direccion.php" />
+    <MESSAGE value="Añadidos los formatos para el navbar y un carousel a modo de prueba" />
+    <MESSAGE value="Añadida la función __toString y relación con la entidad Pedidos" />
+    <MESSAGE value="Añadido el rol manager en el CRUD controller del Usuario" />
+    <MESSAGE value="Añadida la relación con la entidad LineaPedidos" />
+    <MESSAGE value="Añadida seguridad y formatos para navbar.html.twig" />
+    <MESSAGE value="Desarrollado el controlador del perfil" />
+    <MESSAGE value="Añadida función para encontrar un producto según su formato" />
+    <MESSAGE value="Cambios menores" />
+    <MESSAGE value="Añadida función para encontrar usuario por email" />
+    <MESSAGE value="Añadido el dropdown con los distintos formatos de los productos" />
+    <MESSAGE value="Desarrolladas las plantillas de producto, perfil y all_productos" />
+    <MESSAGE value="Creada la plantilla para mostrar todos los pedidos que ha realizado un usuario" />
+    <MESSAGE value="Migraciones varaias" />
+    <MESSAGE value="Migraciones varias" />
+    <MESSAGE value="Creados controladores para Formato, Pedido y Manager" />
+    <MESSAGE value="Creados CRUD controllers para LineaPedido y Pedido" />
+    <MESSAGE value="Creadas plantillas controllers para Formato, Manager y Pedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creadas plantillas controllers para Formato, Manager y Pedido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

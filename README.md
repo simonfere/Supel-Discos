@@ -19,8 +19,5 @@ Para iniciar el desarrollo al hacer ```git clone```, escribir en la consola ```c
 
 Para configurar la base de datos, en el archivo [.env](.env) hay que editar entre las líneas 26 y 29 para personalizar la conexión a la base de datos que tengamos instalada.
 
-La estructura se encuentra en el archivo [structure.sql](/sql/structure.sql). Simplemente, la importamos y empezamos a crear elementos.
-
-He añadido varios usuarios, todos con la contraseña 1234 o 123456789.
 
 
