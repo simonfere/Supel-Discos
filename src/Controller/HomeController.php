@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Formato;
 use App\Entity\Producto;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -17,11 +18,16 @@ class HomeController extends AbstractController
     {
 
         $productoRepository = $entityManager->getRepository(Producto::class);
-        $productos = $productoRepository->findAll();
+        $productosTemp = $productoRepository->findAll();
+
+        $productos = [$productosTemp[0], $productosTemp[1], $productosTemp[3]];
+
+        $formatos = $entityManager->getRepository(Formato::class)->findAll();
 
         return $this->render('home/index.html.twig', [
             /*'controller_name' => 'HomeController',*/
-            'producto' => $productos
+            'productos' => $productos,
+            'formatos' => $formatos
         ]);
     }
 }
