@@ -45,4 +45,16 @@ class LineaPedidoRepository extends ServiceEntityRepository
 //            ->getOneOrNullResult()
 //        ;
 //    }
+
+    public function findAllByPedido_Id(int $id)
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT lp.id FROM App\Entity\LineaPedido lp WHERE lp.pedido=:id'
+        )->setParameter('id', $id);
+
+        return $query->getResult();
+    }
+
 }

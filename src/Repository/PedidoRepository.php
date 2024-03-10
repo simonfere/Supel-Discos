@@ -36,13 +36,29 @@ class PedidoRepository extends ServiceEntityRepository
 //        ;
 //    }
 
-//    public function findOneBySomeField($value): ?Pedido
-//    {
-//        return $this->createQueryBuilder('p')
-//            ->andWhere('p.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->getQuery()
-//            ->getOneOrNullResult()
-//        ;
-//    }
+    public function findAllByUser(int $id): array
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT p.id FROM App\Entity\Pedido p WHERE p.usuario=:id'
+        )->setParameter('id', $id);
+
+        $arrayOf =  $query->getResult();
+
+        $fullArray = [];
+
+        for ($i = 0; $i < count($arrayOf); $i++) {
+            foreach ($arrayOf[$i] as $id => $idPedido) {
+
+                $productosEnForeach = $entityManager->getRepository(Pedido::class)->find($arrayOf[$i]['id']);
+
+                $fullArray[] = $productosEnForeach;
+            }
+        }
+
+        return $fullArray;
+
+
+    }
 }
