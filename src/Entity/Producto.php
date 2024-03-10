@@ -38,9 +38,13 @@ class Producto
     #[ORM\ManyToOne]
     private ?Formato $formato = null;
 
+    #[ORM\OneToMany(targetEntity: LineaPedido::class, mappedBy: 'producto')]
+    private Collection $lineaPedidos;
+
     public function __construct()
     {
         $this->valoracions = new ArrayCollection();
+        $this->lineaPedidos = new ArrayCollection();
     }
 
     public function __toString(): string
@@ -152,6 +156,36 @@ class Producto
     public function setFormato(?Formato $formato): static
     {
         $this->formato = $formato;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, LineaPedido>
+     */
+    public function getLineaPedidos(): Collection
+    {
+        return $this->lineaPedidos;
+    }
+
+    public function addLineaPedido(LineaPedido $lineaPedido): static
+    {
+        if (!$this->lineaPedidos->contains($lineaPedido)) {
+            $this->lineaPedidos->add($lineaPedido);
+            $lineaPedido->setProducto($this);
+        }
+
+        return $this;
+    }
+
+    public function removeLineaPedido(LineaPedido $lineaPedido): static
+    {
+        if ($this->lineaPedidos->removeElement($lineaPedido)) {
+            // set the owning side to null (unless already changed)
+            if ($lineaPedido->getProducto() === $this) {
+                $lineaPedido->setProducto(null);
+            }
+        }
 
         return $this;
     }
