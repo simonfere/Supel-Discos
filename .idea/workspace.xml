@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Creadas plantillas controllers para Formato, Manager y Pedido">
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios en README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductoCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductoCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ManagerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ManagerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Pedido.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pedido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Producto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/PedidoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PedidoRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/all_productos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_productos/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/formato/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/manager/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,15 +268,7 @@
       <workItem from="1710086217860" duration="3282000" />
       <workItem from="1710092433703" duration="6473000" />
       <workItem from="1710099994221" duration="963000" />
-      <workItem from="1710108224732" duration="987000" />
-    </task>
-    <task id="LOCAL-00001" summary="Cambios a 25/2 a las 23:24">
-      <option name="closed" value="true" />
-      <created>1708899863899</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1708899863899</updated>
+      <workItem from="1710108224732" duration="10404000" />
     </task>
     <task id="LOCAL-00002" summary="Cambios a 25/2 a las 23:24">
       <option name="closed" value="true" />
@@ -647,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710100932007</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Cambios en README.md">
+      <option name="closed" value="true" />
+      <created>1710110422112</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1710110422113</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +680,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD" />
     <MESSAGE value="Añadido al DashboardController la sección para pedido y para línea de pedido" />
     <MESSAGE value="Añadida la extensión ext-intl en el composer.json para poder trabajar con fechas desde el CRUD" />
     <MESSAGE value="Añadido el rol de Manager a security.yaml" />
@@ -690,7 +704,8 @@
     <MESSAGE value="Creados controladores para Formato, Pedido y Manager" />
     <MESSAGE value="Creados CRUD controllers para LineaPedido y Pedido" />
     <MESSAGE value="Creadas plantillas controllers para Formato, Manager y Pedido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creadas plantillas controllers para Formato, Manager y Pedido" />
+    <MESSAGE value="Cambios en README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
