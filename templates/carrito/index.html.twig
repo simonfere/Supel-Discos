@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Carrito de la compra{% endblock %}
+
+{% block body %}
+    {% include('components/navbar.html.twig') %}
+
+    {% if carrito is empty %}
+        <h1 style="color: red; text-align: center">NO HAY NADA EN EL CARRITO</h1>
+    {% else %}
+        {% for producto in carrito %}
+            <li><a href="{{ path('app_productos', { id: producto.id}) }}"> - {{ producto.nombre }}  || {{ producto.precio }}€</a></li>
+        {% endfor %}
+        <form action={{ path('fin_compra') }}>
+            <input type="submit" value="Finalizar compra">
+        </form>
+        <form action={{ path('borrar_carrito') }}>
+            <input type="submit" value="Borrar todo el carrito">
+        </form>
+    {% endif %}
+{% endblock %}
