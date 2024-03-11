@@ -41,6 +41,9 @@ class Producto
     #[ORM\OneToMany(targetEntity: LineaPedido::class, mappedBy: 'producto')]
     private Collection $lineaPedidos;
 
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $imagen = null;
+
     public function __construct()
     {
         $this->valoracions = new ArrayCollection();
@@ -186,6 +189,18 @@ class Producto
                 $lineaPedido->setProducto(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getImagen(): ?string
+    {
+        return $this->imagen;
+    }
+
+    public function setImagen(?string $imagen): static
+    {
+        $this->imagen = $imagen;
 
         return $this;
     }

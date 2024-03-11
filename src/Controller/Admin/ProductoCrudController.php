@@ -26,7 +26,8 @@ class ProductoCrudController extends AbstractCrudController
             TextField::new('ano_salida'),
             TextField::new('precio'),
             TextField::new('pais'),
-            AssociationField::new('formato')->autocomplete()
+            AssociationField::new('formato')->autocomplete(),
+            TextField::new('imagen')
         ];
     }
 
