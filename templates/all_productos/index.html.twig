@@ -4,9 +4,10 @@
     {% endblock %}
 	{% block body %}
         {% include 'components/navbar.html.twig' %}
+        <h1>Todos los productos</h1>
         <ul class="lista">
             {% for producto in productos %}
-                <li><a href="{{ path('app_productos', { id: producto.id}) }}">{{ producto.artista }} - {{ producto.nombre }} ({{ producto.anoSalida }})</a></li>
+                <li><a href="{{ path('app_productos', { id: producto.id}) }}">{{ producto.artista }} - {{ producto.nombre }} ({{ producto.anoSalida }}) || Disponible en {{ producto.formato }}</a></li>
             {% endfor %}
         </ul>
     {% endblock %}

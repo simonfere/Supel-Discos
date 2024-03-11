@@ -214,13 +214,10 @@
         }); // end am5.ready()
     </script>
 
-    <!-- HTML -->
-    <h2>Formatos más vendidos</h2>
-    <div id="chartdiv1"></div>
-    <div class="container text-center mt-3">
+    <div class="container text-center mt-3 mb-6 h-100">
         <div class="row">
             <div class="col border border-dark h-25 bg-primary ">
-                Pedidos realizados: 345
+                Pedidos realizados: {{ pedidosTotal }}
             </div>
             <div class="col border border-dark bg-success">
                 Ingresos totales: 3749,23€
@@ -230,4 +227,8 @@
             </div>
         </div>
     </div>
+    <!-- HTML -->
+    <h2>Formatos más vendidos</h2>
+    <div id="chartdiv1"></div>
+
 {% endblock %}

@@ -11,7 +11,9 @@
         <h5>Disponible en: {{ producto.formato }}</h5>
         <h6>País de lanzamiento: {{ producto.pais }}</h6>
 
-        <button>Añadir al carrito</button>
+    <form action={{ path('add_carrito', {id: producto.id}) }}>
+        <input type="submit" value="Añadir al carrito">
+    </form>
 
 {% endblock %}
 {% block stylesheets %}

@@ -19,7 +19,7 @@
 
         <h5>Pedidos Realizados</h5>
         {% for pedido in pedidos %}
-            <li style="list-style-type: none"><a href="{{ path('app_pedido', {id: pedido.id}) }}">Pedido realizado el {{ pedido.fecha.format('d/m/Y') }} a las {{ pedido.fecha.format('hh:mm') }}</a></li>
+            <li style="list-style-type: none"><a href="{{ path('app_pedido', {id: pedido.id}) }}">Pedido número #{{ pedido.id }}</a></li>
         {% endfor %}
 
     </div>

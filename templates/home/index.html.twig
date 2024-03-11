@@ -19,11 +19,11 @@
 				 {% for producto in productos %}
 				<div class="carousel-item active">
 					<div class="d-flex justify-content-center">
-						<img src="https://storage.highresaudio.com/library/bild/c_650000/656306/field4.jpg" class="d-block w-50" alt="" />
+						<img src="{{ producto.imagen }}" class="d-block w-50" alt="" />
 					</div>
 					<div class="carousel-caption d-none d-md-block">
-						<h5>{{ producto.nombre }}</h5>
-						<p>{{ producto.artista }}</p>
+						<h5><a href="{{ path('app_productos', {id: producto.id}) }}">{{ producto.nombre }}</a></h5>
+						<p><a href="{{ path('app_productos', {id: producto.id}) }}">{{ producto.artista }}</a></p>
 					</div>
 				</div>
 			{% endfor %}
@@ -101,6 +101,7 @@
 			margin-bottom: 20px;
 			margin-top: 10px;
 		}
+
 	</style>
 
 {% endblock %}

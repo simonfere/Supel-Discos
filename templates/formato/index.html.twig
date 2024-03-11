@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello FormatoController!{% endblock %}
+{% block title %}Productos en formato {{ formato.tipo }}{% endblock %}
 
 {% block body %}
     {% include('components/navbar.html.twig') %}
@@ -17,6 +17,8 @@
         li {
             margin-bottom: 20px;
             margin-top: 10px;
+            margin-left: 20px;
+            list-style-type: none;
         }
     </style>
 
