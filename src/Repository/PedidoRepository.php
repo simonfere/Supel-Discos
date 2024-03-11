@@ -61,4 +61,17 @@ class PedidoRepository extends ServiceEntityRepository
 
 
     }
+
+    public function total () : int
+    {
+
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT COUNT(p.id) FROM App\Entity\Pedido p'
+        );
+
+        $arrayOf =  $query->getResult();
+        return (int) $arrayOf;
+    }
 }
