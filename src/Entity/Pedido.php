@@ -20,7 +20,7 @@ class Pedido
     #[ORM\OneToMany(targetEntity: LineaPedido::class, mappedBy: 'pedido')]
     private Collection $lineaPedidos;
 
-    #[ORM\Column(type: Types::DATE_MUTABLE)]
+    #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
     private ?\DateTimeInterface $fecha = null;
 
     #[ORM\ManyToOne(inversedBy: 'pedidos')]
