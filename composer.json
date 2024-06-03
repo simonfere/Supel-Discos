@@ -4,10 +4,11 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "ext-intl": "*",
         "php": ">=8.2",
         "ext-ctype": "*",
+        "ext-http": "*",
         "ext-iconv": "*",
+        "ext-intl": "*",
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^3.0",
@@ -45,8 +46,7 @@
         "symfony/yaml": "7.0.*",
         "symfonycasts/verify-email-bundle": "^1.16",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^3.0",
-      "ext-http": "*"
+        "twig/twig": "^3.0"
     },
     "config": {
         "allow-plugins": {
