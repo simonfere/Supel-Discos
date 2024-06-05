@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Modificado .gitignore (música)">
-      <change afterPath="$PROJECT_DIR$/templates/login/img_login.jpg" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="resuelto #1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/all_productos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_productos/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/formato/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
@@ -211,7 +200,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/xampp/htdocs/supel-discos/assets/musica",
+    "last_opened_file_path": "C:/xampp/htdocs/supel-discos/assets/musica/Tiny Moving Parts - Tiny Moving Parts [2022]",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -225,6 +214,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\supel-discos\assets\musica\Tiny Moving Parts - Tiny Moving Parts [2022]" />
+      <recent name="C:\xampp\htdocs\supel-discos\assets\musica\Twenty One Pilots - Clancy [2024]" />
       <recent name="C:\xampp\htdocs\supel-discos\assets\musica" />
       <recent name="C:\xampp\htdocs\supel-discos\templates\login" />
     </key>
@@ -280,95 +271,8 @@
       <workItem from="1717256014363" duration="4458000" />
       <workItem from="1717325344258" duration="644000" />
       <workItem from="1717405227584" duration="7881000" />
-      <workItem from="1717425538906" duration="6409000" />
-    </task>
-    <task id="LOCAL-00003" summary="Añadida la configuración del entorno de desarrollo .idea">
-      <option name="closed" value="true" />
-      <created>1708977990116</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1708977990116</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Añadida fotografía para la página de login">
-      <option name="closed" value="true" />
-      <created>1709312375297</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312375297</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Añadido EasyAdmin y configurado la página principal del controlador">
-      <option name="closed" value="true" />
-      <created>1709312440989</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312440989</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Migración realizada para actualizar los cambios de tablas">
-      <option name="closed" value="true" />
-      <created>1709312573361</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312573361</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Modificada la plantilla twig con la extensión a la libreria EasyAdmin">
-      <option name="closed" value="true" />
-      <created>1709312602846</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312602846</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Creación de CRUD controllers de las tres entidades con atributos especificados">
-      <option name="closed" value="true" />
-      <created>1709312637912</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312637912</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Cambiada la &quot;ñ&quot; de año por una &quot;n&quot; (a eso se debía la migración realizada en el commit pasado)">
-      <option name="closed" value="true" />
-      <created>1709312775151</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312775151</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Cambios en el XML del IDE">
-      <option name="closed" value="true" />
-      <created>1709312798603</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312798603</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Añadida función de logout para el correcto funcionamiento del EasyAdmin">
-      <option name="closed" value="true" />
-      <created>1709312846828</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312846828</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Añadida función que por defecto te asigna el rol de usuario en la página de registro">
-      <option name="closed" value="true" />
-      <created>1709312879309</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1709312879310</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Añadidos atributos a la entidad Producto, incluida la relación con Artista y Formato">
-      <option name="closed" value="true" />
-      <created>1709508785698</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1709508785698</updated>
+      <workItem from="1717425538906" duration="7108000" />
+      <workItem from="1717611879392" duration="5136000" />
     </task>
     <task id="LOCAL-00014" summary="Creados CRUD controllers de Producto y Formato, así como añadidos al dasboardController">
       <option name="closed" value="true" />
@@ -674,7 +578,95 @@
       <option name="project" value="LOCAL" />
       <updated>1717435003309</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Cambios menores">
+      <option name="closed" value="true" />
+      <created>1717438582927</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438582927</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Definida vision (fallo en la ruta de imágenes)">
+      <option name="closed" value="true" />
+      <created>1717438635613</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438635613</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Añadido import de javascript para hacer funcional el navbar.html.twig">
+      <option name="closed" value="true" />
+      <created>1717438671781</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438671781</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Borrado carrusel (homepage vacía)">
+      <option name="closed" value="true" />
+      <created>1717438748834</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438748834</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Login funcional y estético">
+      <option name="closed" value="true" />
+      <created>1717438800250</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438800250</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Cambiados los colores de toda la página">
+      <option name="closed" value="true" />
+      <created>1717438820242</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438820242</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Cambios menores en configuración del IDE">
+      <option name="closed" value="true" />
+      <created>1717438846561</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438846561</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Formulario de registro funcional y estético, con validación de email en el controller añadida">
+      <option name="closed" value="true" />
+      <created>1717438893928</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438893928</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Creados los archivos para desarrollar el formulario de dirección">
+      <option name="closed" value="true" />
+      <created>1717438932486</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1717438932486</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fixed #1">
+      <option name="closed" value="true" />
+      <created>1717620117227</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1717620117227</updated>
+    </task>
+    <task id="LOCAL-00062" summary="resuelto #1">
+      <option name="closed" value="true" />
+      <created>1717620136208</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1717620136208</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,20 +684,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadida la extensión ext-intl en el composer.json para poder trabajar con fechas desde el CRUD" />
-    <MESSAGE value="Añadido el rol de Manager a security.yaml" />
-    <MESSAGE value="Eliminada la imagen para el login" />
-    <MESSAGE value="Añadida seguridad y formatos para que trabaje el navbar.html.twig" />
-    <MESSAGE value="Desarrolladas las entidades LineaPedido y Pedido, y añadidos métodos para obtener datos" />
-    <MESSAGE value="Añadida la función __toString a la entidad Direccion.php" />
-    <MESSAGE value="Añadidos los formatos para el navbar y un carousel a modo de prueba" />
-    <MESSAGE value="Añadida la función __toString y relación con la entidad Pedidos" />
-    <MESSAGE value="Añadido el rol manager en el CRUD controller del Usuario" />
-    <MESSAGE value="Añadida la relación con la entidad LineaPedidos" />
     <MESSAGE value="Añadida seguridad y formatos para navbar.html.twig" />
     <MESSAGE value="Desarrollado el controlador del perfil" />
     <MESSAGE value="Añadida función para encontrar un producto según su formato" />
-    <MESSAGE value="Cambios menores" />
     <MESSAGE value="Añadida función para encontrar usuario por email" />
     <MESSAGE value="Añadido el dropdown con los distintos formatos de los productos" />
     <MESSAGE value="Desarrolladas las plantillas de producto, perfil y all_productos" />
@@ -717,7 +698,18 @@
     <MESSAGE value="Creadas plantillas controllers para Formato, Manager y Pedido" />
     <MESSAGE value="Cambios en README.md" />
     <MESSAGE value="Modificado .gitignore (música)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificado .gitignore (música)" />
+    <MESSAGE value="Cambios menores" />
+    <MESSAGE value="Definida vision (fallo en la ruta de imágenes)" />
+    <MESSAGE value="Añadido import de javascript para hacer funcional el navbar.html.twig" />
+    <MESSAGE value="Borrado carrusel (homepage vacía)" />
+    <MESSAGE value="Login funcional y estético" />
+    <MESSAGE value="Cambiados los colores de toda la página" />
+    <MESSAGE value="Cambios menores en configuración del IDE" />
+    <MESSAGE value="Formulario de registro funcional y estético, con validación de email en el controller añadida" />
+    <MESSAGE value="Creados los archivos para desarrollar el formulario de dirección" />
+    <MESSAGE value="fixed #1" />
+    <MESSAGE value="resuelto #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="resuelto #1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
