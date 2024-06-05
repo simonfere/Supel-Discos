@@ -4,12 +4,12 @@
     {% endblock %}
 	{% block body %}
         {% include 'components/navbar.html.twig' %}
-        <h1>Todos los productos</h1>
+        <h1 class="text-light mt-3 text-center">Todos los productos</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
             {% for producto in productos %}
             <div class="col">
                 <div class="card h-100">
-                    <img src="{{ asset('./musica/' ~ producto.artista ~ ' - ' ~ { producto.nombre } ~ ' [' ~producto.ano ~']' '/cover.jpg') }}" class="card-img-top" alt="Portada del álbum {{ producto.nombre }}">
+                    <img src="{{ asset('musica/'~producto.artista~' - '~producto.nombre~' ['~producto.anoSalida~']/cover.jpg') }}" class="card-img-top" alt="Portada del álbum {{ producto.nombre }}">
                     <div class="card-body">
                         <h5 class="card-title"><a href="{{ path('app_productos', {id: producto.id }) }}" class="lnk-concierto">{{ producto.nombre }}</a></h5>
                         <p class="card-text">{{ producto.artista }}</p>
