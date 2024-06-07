@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en carpeta del IDE">
-      <change afterPath="$PROJECT_DIR$/templates/formato/artista.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/FormatoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FormatoController.php" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en el estilo del título de la página">
       <change beforePath="$PROJECT_DIR$/src/Controller/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ArtistaRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArtistaRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/formato/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,47 +273,7 @@
       <workItem from="1717425538906" duration="7108000" />
       <workItem from="1717611879392" duration="5243000" />
       <workItem from="1717698109265" duration="998000" />
-      <workItem from="1717749492171" duration="4684000" />
-    </task>
-    <task id="LOCAL-00015" summary="Realizadas diferentes migraciones respecto a los cambios y cambios en la carpeta del IDE">
-      <option name="closed" value="true" />
-      <created>1709508897097</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1709508897097</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Añadida la función toString para facilitar acciones en el CRUD">
-      <option name="closed" value="true" />
-      <created>1709904058659</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1709904058659</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Añadida la función toString para facilitar acciones en el CRUD">
-      <option name="closed" value="true" />
-      <created>1709904066978</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1709904066978</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Creada la misma página para home y productos, también añadida la página individual de producto">
-      <option name="closed" value="true" />
-      <created>1709904141094</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1709904141094</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Creado un controlador con su plantilla para mostrar el peril del usuario">
-      <option name="closed" value="true" />
-      <created>1709904174627</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1709904174627</updated>
+      <workItem from="1717749492171" duration="5479000" />
     </task>
     <task id="LOCAL-00020" summary="Creada la entidad Pedido">
       <option name="closed" value="true" />
@@ -673,7 +627,47 @@
       <option name="project" value="LOCAL" />
       <updated>1717620518771</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Cambios menores en carpeta del IDE">
+      <option name="closed" value="true" />
+      <created>1717755406624</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755406624</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Creada la plantilla de la página que muestra todos los productos de un artista">
+      <option name="closed" value="true" />
+      <created>1717755447799</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755447799</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Añadida la función para buscar un artista por su id">
+      <option name="closed" value="true" />
+      <created>1717755488906</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755488906</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Añadida la función para renderizar y hacer funcional la página de productos por artista">
+      <option name="closed" value="true" />
+      <created>1717755536893</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755536893</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Cambios menores en el estilo del título de la página">
+      <option name="closed" value="true" />
+      <created>1717755564836</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755564836</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,10 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desarrollado el controlador del perfil" />
-    <MESSAGE value="Añadida función para encontrar un producto según su formato" />
-    <MESSAGE value="Añadida función para encontrar usuario por email" />
-    <MESSAGE value="Añadido el dropdown con los distintos formatos de los productos" />
     <MESSAGE value="Desarrolladas las plantillas de producto, perfil y all_productos" />
     <MESSAGE value="Creada la plantilla para mostrar todos los pedidos que ha realizado un usuario" />
     <MESSAGE value="Migraciones varaias" />
@@ -716,7 +706,11 @@
     <MESSAGE value="fixed #1" />
     <MESSAGE value="resuelto #1" />
     <MESSAGE value="Cambios menores en carpeta del IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en carpeta del IDE" />
+    <MESSAGE value="Creada la plantilla de la página que muestra todos los productos de un artista" />
+    <MESSAGE value="Añadida la función para buscar un artista por su id" />
+    <MESSAGE value="Añadida la función para renderizar y hacer funcional la página de productos por artista" />
+    <MESSAGE value="Cambios menores en el estilo del título de la página" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en el estilo del título de la página" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
