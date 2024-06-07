@@ -5,7 +5,7 @@
 {% block body %}
         {{ include('components/navbar.html.twig') }}
         <h1>Nombre del álbum: {{ producto.nombre }}</h1>
-        <h2>Artista: {{ producto.artista }}</h2>
+        <h2>Artista: <a href="{{ path('prod_por_artista', {id: artista.id}) }}">{{ producto.artista }}</a></h2>
         <h6>Año de lanzamiento: {{ producto.anoSalida }}</h6>
         <h4>Precio: {{ producto.precio }}€</h4>
         <h5>Disponible en: {{ producto.formato }}</h5>
