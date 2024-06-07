@@ -46,4 +46,15 @@ class ProductoRepository extends ServiceEntityRepository
 
         return $query->getResult();
     }
+    public function findOneByArtista(string $id)
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT p.id FROM App\Entity\Producto p WHERE p.artista=:id'
+        )->setParameter('id', $id);
+
+        return $query->getResult();
+    }
+
 }
