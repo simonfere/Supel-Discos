@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="resuelto #1">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en carpeta del IDE">
+      <change afterPath="$PROJECT_DIR$/templates/formato/artista.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FormatoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FormatoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ArtistaRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArtistaRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/formato/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
@@ -40,7 +45,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="f9d7ddd8-87de-4ce0-8405-d22c3920deb7" />
-        <option name="url" value="https://github.com/simonfere/Supel-Discos.git" />
+        <option name="url" value="https://github.com/simonfere/supel-discos" />
       </UrlAndAccount>
     </option>
   </component>
@@ -192,26 +197,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/xampp/htdocs/supel-discos/assets/musica/Tiny Moving Parts - Tiny Moving Parts [2022]",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/supel-discos/assets/musica/Tiny Moving Parts - Tiny Moving Parts [2022]&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\supel-discos\assets\musica\Tiny Moving Parts - Tiny Moving Parts [2022]" />
@@ -272,15 +277,9 @@
       <workItem from="1717325344258" duration="644000" />
       <workItem from="1717405227584" duration="7881000" />
       <workItem from="1717425538906" duration="7108000" />
-      <workItem from="1717611879392" duration="5136000" />
-    </task>
-    <task id="LOCAL-00014" summary="Creados CRUD controllers de Producto y Formato, así como añadidos al dasboardController">
-      <option name="closed" value="true" />
-      <created>1709508844366</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1709508844366</updated>
+      <workItem from="1717611879392" duration="5243000" />
+      <workItem from="1717698109265" duration="998000" />
+      <workItem from="1717749492171" duration="4684000" />
     </task>
     <task id="LOCAL-00015" summary="Realizadas diferentes migraciones respecto a los cambios y cambios en la carpeta del IDE">
       <option name="closed" value="true" />
@@ -666,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717620136208</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Cambios menores en carpeta del IDE">
+      <option name="closed" value="true" />
+      <created>1717620518771</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1717620518771</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadida seguridad y formatos para navbar.html.twig" />
     <MESSAGE value="Desarrollado el controlador del perfil" />
     <MESSAGE value="Añadida función para encontrar un producto según su formato" />
     <MESSAGE value="Añadida función para encontrar usuario por email" />
@@ -709,7 +715,8 @@
     <MESSAGE value="Creados los archivos para desarrollar el formulario de dirección" />
     <MESSAGE value="fixed #1" />
     <MESSAGE value="resuelto #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="resuelto #1" />
+    <MESSAGE value="Cambios menores en carpeta del IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en carpeta del IDE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
