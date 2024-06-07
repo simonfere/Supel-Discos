@@ -36,13 +36,17 @@ class ArtistaRepository extends ServiceEntityRepository
 //        ;
 //    }
 
-//    public function findOneBySomeField($value): ?Artista
-//    {
-//        return $this->createQueryBuilder('a')
-//            ->andWhere('a.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->getQuery()
-//            ->getOneOrNullResult()
-//        ;
-//    }
+    public function findOneById(int $id)
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT a.id FROM App\Entity\Artista a WHERE a.id=:id'
+        )->setParameter('id', $id);
+
+        return $query->getResult();
+    }
+
+
+
 }
