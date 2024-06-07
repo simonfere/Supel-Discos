@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Artista;
 use App\Entity\Formato;
 use App\Entity\Producto;
 use Doctrine\ORM\EntityManagerInterface;
@@ -22,11 +23,18 @@ class ProductoController extends AbstractController
 
         $formatos = $entityManager->getRepository(Formato::class)->findAll();
 
-        if (!$producto) {
-            throw $this->createNotFoundException("No se encuentra ningún producto. Siga buscando");
-        }
+        $artistaRepository = $entityManager->getRepository(Artista::class);
+
+        $artista = $artistaRepository->findOneById($producto->getArtista()->getId());
+
+        $artistaFinal = $entityManager->getRepository(Artista::class)->find($artista[0]['id']);
+
+//        if (!$producto) {
+//            throw $this->createNotFoundException("No se encuentra ningún producto. Siga buscando");
+//        }
         return $this->render('producto/index.html.twig', [
             'producto' => $producto,
+            'artista' => $artistaFinal,
             'formatos' => $formatos
         ]);
     }
