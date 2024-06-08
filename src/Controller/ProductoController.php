@@ -21,6 +21,12 @@ class ProductoController extends AbstractController
         $productoRepository = $entityManager->getRepository(Producto::class);
         $producto = $productoRepository->find($id);
 
+        $todosProductos = $productoRepository->findAll();
+
+        shuffle($todosProductos);
+
+        $productosRecomendados = array_slice($todosProductos, 0, 4);
+
         $formatos = $entityManager->getRepository(Formato::class)->findAll();
 
         $artistaRepository = $entityManager->getRepository(Artista::class);
@@ -35,7 +41,8 @@ class ProductoController extends AbstractController
         return $this->render('producto/index.html.twig', [
             'producto' => $producto,
             'artista' => $artistaFinal,
-            'formatos' => $formatos
+            'formatos' => $formatos,
+            'productos_recomendados' => $productosRecomendados,
         ]);
     }
 
