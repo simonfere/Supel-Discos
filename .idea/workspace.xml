@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en la configuración del IDE">
-      <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo.">
       <change beforePath="$PROJECT_DIR$/src/Controller/ProductoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,23 +273,7 @@
       <workItem from="1717698109265" duration="998000" />
       <workItem from="1717749492171" duration="5993000" />
       <workItem from="1717798037516" duration="734000" />
-      <workItem from="1717860729867" duration="5613000" />
-    </task>
-    <task id="LOCAL-00025" summary="Añadida la función de autocompletar el artita para facilitar el trabajo del CRUD">
-      <option name="closed" value="true" />
-      <created>1709904326214</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1709904326214</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Añadido al DashboardController la sección para pedido y para línea de pedido">
-      <option name="closed" value="true" />
-      <created>1710100084864</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100084864</updated>
+      <workItem from="1717860729867" duration="6246000" />
     </task>
     <task id="LOCAL-00027" summary="Añadida la extensión ext-intl en el composer.json para poder trabajar con fechas desde el CRUD">
       <option name="closed" value="true" />
@@ -670,7 +651,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717798122808</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Cambios menores en la configuración del IDE">
+      <option name="closed" value="true" />
+      <created>1717884557403</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1717884557403</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo.">
+      <option name="closed" value="true" />
+      <created>1717884633393</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1717884633393</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creados controladores para Formato, Pedido y Manager" />
     <MESSAGE value="Creados CRUD controllers para LineaPedido y Pedido" />
     <MESSAGE value="Creadas plantillas controllers para Formato, Manager y Pedido" />
     <MESSAGE value="Cambios en README.md" />
@@ -713,7 +709,8 @@
     <MESSAGE value="Configurado para que acceder al id del artista, ya que el producto devuelve el nombre" />
     <MESSAGE value="Añadida función para encontrar un producto por su artista" />
     <MESSAGE value="Cambios menores en la configuración del IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en la configuración del IDE" />
+    <MESSAGE value="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
