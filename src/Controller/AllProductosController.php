@@ -19,6 +19,8 @@ class AllProductosController extends AbstractController
 
         $productos = $entityManager->getRepository(Producto::class)->findAll();
 
+        shuffle($productos);
+
         $formatos = $entityManager->getRepository(Formato::class)->findAll();
         return $this->render('all_productos/index.html.twig', [
             'productos' => $productos,
