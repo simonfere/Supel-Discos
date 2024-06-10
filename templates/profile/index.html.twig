@@ -4,7 +4,7 @@
 
 {% block body %}
     {{ include('components/navbar.html.twig') }}
-    <div class="main-div">
+    <div class="main-div text-light">
         <h1 class="titulo">TU PERFIL</h1>
 
         <p class="nombre">Nombre: {{ usuario.nombre}} </p>
@@ -12,15 +12,10 @@
         <p class="email">Email: {{ usuario.email }}</p>
 
         {% if usuario.idDireccion is null %}
-        <a href="">Asignar dirección</a>
+        <a href="{{ path('app_direccion') }}">Asignar dirección</a>
             {% else %}
                 <p class="direccion">Dirección: {{ usuario.idDireccion.calle }} {{ usuario.idDireccion.numero }} {{ usuario.idDireccion.piso }} {{ usuario.idDireccion.codigoPostal }} {{ usuario.idDireccion.ciudad }}</p>
         {% endif %}
-
-        <h5>Pedidos Realizados</h5>
-        {% for pedido in pedidos %}
-            <li style="list-style-type: none"><a href="{{ path('app_pedido', {id: pedido.id}) }}">Pedido número #{{ pedido.id }}</a></li>
-        {% endfor %}
 
     </div>
 {% endblock %}
