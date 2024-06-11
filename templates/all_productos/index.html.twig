@@ -9,7 +9,7 @@
             {% for producto in productos %}
             <div class="col">
                 <div class="card h-100">
-                    <img src="{{ asset('musica/'~producto.artista~' - '~producto.nombre~' ['~producto.anoSalida~']/cover.jpg') }}" class="card-img-top" alt="Portada del álbum {{ producto.nombre }}">
+                    <a href="{{ path('app_productos', {id: producto.id }) }}"><img class="card-img-top" src="{{ asset('musica/'~producto.artista~' - '~producto.nombre~' ['~producto.anoSalida~']/cover.jpg') }}" alt="Portada del álbum {{ producto.nombre }}"/></a>
                     <div class="card-body">
                         <h5 class="card-title"><a href="{{ path('app_productos', {id: producto.id }) }}" class="lnk-concierto">{{ producto.nombre }}</a></h5>
                         <p class="card-text">{{ producto.artista }}</p>
