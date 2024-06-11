@@ -20,7 +20,8 @@ class HomeController extends AbstractController
         $productoRepository = $entityManager->getRepository(Producto::class);
         $productosTemp = $productoRepository->findAll();
 
-        $productos = [$productosTemp[0], $productosTemp[1], $productosTemp[3]];
+        $productos = array_slice($productosTemp, 0, 8);
+
 
         $formatos = $entityManager->getRepository(Formato::class)->findAll();
 
