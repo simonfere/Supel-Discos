@@ -19,13 +19,13 @@
                     <div class="fs-5 mb-5">
                         <span>{{ producto.precio }}€</span>
                     </div>
-{#                    <p>{{ producto.artista }} es una banda/artista formada/nacidx en {{ producto.artista.ano }} en {{ producto.artista.pais }}</p>#}
+                    {% if artista.descripcion is not null %}
+                        <p>{{ artista.descripcion }}</p>
+                    {% endif %}
                     <p>Formato: {{ producto.formato }}</p></a>
                     <div class="d-flex">
                         <form action={{ path('add_carrito', {id: producto.id}) }}>
-                            <input class="btn btn-dark flex-shrink-0" type="submit" placeholder="Add to cart">
-
-                            </input>
+                            <input class="btn btn-dark flex-shrink-0" type="submit" value="Añadir al carrito">
                         </form>
                     </div>
                 </div>
