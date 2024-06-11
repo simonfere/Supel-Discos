@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en la configuración del IDE">
-      <change afterPath="$PROJECT_DIR$/assets/styles/producto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AllProductosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AllProductosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CarritoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CarritoController.php" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Añadida la opción de mostrar la descripción del artista (si existe)">
+      <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DireccionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DireccionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/DireccionType.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/carrito/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carrito/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/direccion/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/direccion/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,6 +225,12 @@
       <recent name="C:\xampp\htdocs\supel-discos\assets\musica\Twenty One Pilots - Clancy [2024]" />
       <recent name="C:\xampp\htdocs\supel-discos\templates\login" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\supel-discos\assets\musica\American Football - American Football (LP3) [2019]" />
+      <recent name="C:\xampp\htdocs\supel-discos\assets\musica\12 Summers Old - Hair Spray And Hand Grenades [2006]" />
+      <recent name="C:\xampp\htdocs\supel-discos\assets\musica\Twenty One Pilots - Clancy [2024]" />
+      <recent name="C:\xampp\htdocs\supel-discos\assets\musica\Tiny Moving Parts - Tiny Moving Parts [2022]" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -290,103 +295,9 @@
       <workItem from="1717927780426" duration="1121000" />
       <workItem from="1717959496095" duration="625000" />
       <workItem from="1718010058878" duration="6122000" />
-      <workItem from="1718029565007" duration="5305000" />
-    </task>
-    <task id="LOCAL-00030" summary="Añadida seguridad y formatos para que trabaje el navbar.html.twig">
-      <option name="closed" value="true" />
-      <created>1710100214978</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100214978</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Desarrolladas las entidades LineaPedido y Pedido, y añadidos métodos para obtener datos">
-      <option name="closed" value="true" />
-      <created>1710100283768</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100283768</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Añadida la función __toString a la entidad Direccion.php">
-      <option name="closed" value="true" />
-      <created>1710100320114</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100320114</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Añadidos los formatos para el navbar y un carousel a modo de prueba">
-      <option name="closed" value="true" />
-      <created>1710100366965</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100366965</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Añadida la función __toString y relación con la entidad Pedidos">
-      <option name="closed" value="true" />
-      <created>1710100452338</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100452338</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Añadido el rol manager en el CRUD controller del Usuario">
-      <option name="closed" value="true" />
-      <created>1710100543026</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100543026</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Añadida la relación con la entidad LineaPedidos">
-      <option name="closed" value="true" />
-      <created>1710100564996</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100564996</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Añadida seguridad y formatos para navbar.html.twig">
-      <option name="closed" value="true" />
-      <created>1710100586908</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100586908</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Desarrollado el controlador del perfil">
-      <option name="closed" value="true" />
-      <created>1710100636365</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100636365</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Añadida función para encontrar un producto según su formato">
-      <option name="closed" value="true" />
-      <created>1710100666791</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100666791</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Cambios menores">
-      <option name="closed" value="true" />
-      <created>1710100678704</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100678704</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Añadida función para encontrar usuario por email">
-      <option name="closed" value="true" />
-      <created>1710100703704</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100703704</updated>
+      <workItem from="1718029565007" duration="6183000" />
+      <workItem from="1718045641869" duration="1520000" />
+      <workItem from="1718128982044" duration="7004000" />
     </task>
     <task id="LOCAL-00042" summary="Añadido el dropdown con los distintos formatos de los productos">
       <option name="closed" value="true" />
@@ -684,7 +595,103 @@
       <option name="project" value="LOCAL" />
       <updated>1718037142304</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Cambios menores en la configuración del IDE">
+      <option name="closed" value="true" />
+      <created>1718037244608</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1718037244609</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Añadida función para que no salgan los productos siempre en el mismo orden en la página de todos los productos">
+      <option name="closed" value="true" />
+      <created>1718037295957</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1718037295957</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Añadido link a hoja css externa (resuelto el issue #2) y añadida posible info adicional sobre el artista">
+      <option name="closed" value="true" />
+      <created>1718037393511</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1718037393511</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Añadido path para cambiar dirección, cambios menores y eliminado el bucle con el número de pedidos realizados">
+      <option name="closed" value="true" />
+      <created>1718037464871</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1718037464871</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Hoja de estilos de producto relacionada con el issue #2">
+      <option name="closed" value="true" />
+      <created>1718037487008</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1718037487008</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Añadida nueva propiedad de la entidad Artista.php">
+      <option name="closed" value="true" />
+      <created>1718144659941</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144659941</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Añadida nueva propiedad de la entidad Artista.php al controlador Crud">
+      <option name="closed" value="true" />
+      <created>1718144683947</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144683947</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Migración relacionada con la nueva propiedad creada anteriormente">
+      <option name="closed" value="true" />
+      <created>1718144761850</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144761850</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Creado footer (pendiente de implementación total)">
+      <option name="closed" value="true" />
+      <created>1718144807218</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144807218</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Organizada la homepage, trasladando los estilos a un archivo externo homepage.css">
+      <option name="closed" value="true" />
+      <created>1718144879996</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144879996</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Añadido link para acceder a los productos clicando en las imagenes">
+      <option name="closed" value="true" />
+      <created>1718144912339</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144912339</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Añadida la opción de mostrar la descripción del artista (si existe)">
+      <option name="closed" value="true" />
+      <created>1718144956549</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144956549</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,17 +709,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creadas plantillas controllers para Formato, Manager y Pedido" />
-    <MESSAGE value="Cambios en README.md" />
-    <MESSAGE value="Modificado .gitignore (música)" />
-    <MESSAGE value="Cambios menores" />
-    <MESSAGE value="Definida vision (fallo en la ruta de imágenes)" />
-    <MESSAGE value="Añadido import de javascript para hacer funcional el navbar.html.twig" />
-    <MESSAGE value="Borrado carrusel (homepage vacía)" />
-    <MESSAGE value="Login funcional y estético" />
-    <MESSAGE value="Cambiados los colores de toda la página" />
-    <MESSAGE value="Cambios menores en configuración del IDE" />
-    <MESSAGE value="Formulario de registro funcional y estético, con validación de email en el controller añadida" />
     <MESSAGE value="Creados los archivos para desarrollar el formulario de dirección" />
     <MESSAGE value="fixed #1" />
     <MESSAGE value="resuelto #1" />
@@ -727,7 +723,18 @@
     <MESSAGE value="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo." />
     <MESSAGE value="Añadida función para mostrar otros productos relacionados" />
     <MESSAGE value="Cambios menores en la configuración del IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en la configuración del IDE" />
+    <MESSAGE value="Añadida función para que no salgan los productos siempre en el mismo orden en la página de todos los productos" />
+    <MESSAGE value="Añadido link a hoja css externa (resuelto el issue #2) y añadida posible info adicional sobre el artista" />
+    <MESSAGE value="Añadido path para cambiar dirección, cambios menores y eliminado el bucle con el número de pedidos realizados" />
+    <MESSAGE value="Hoja de estilos de producto relacionada con el issue #2" />
+    <MESSAGE value="Añadida nueva propiedad de la entidad Artista.php" />
+    <MESSAGE value="Añadida nueva propiedad de la entidad Artista.php al controlador Crud" />
+    <MESSAGE value="Migración relacionada con la nueva propiedad creada anteriormente" />
+    <MESSAGE value="Creado footer (pendiente de implementación total)" />
+    <MESSAGE value="Organizada la homepage, trasladando los estilos a un archivo externo homepage.css" />
+    <MESSAGE value="Añadido link para acceder a los productos clicando en las imagenes" />
+    <MESSAGE value="Añadida la opción de mostrar la descripción del artista (si existe)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadida la opción de mostrar la descripción del artista (si existe)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
