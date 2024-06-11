@@ -5,6 +5,7 @@ namespace App\Entity;
 use App\Repository\ArtistaRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ArtistaRepository::class)]
@@ -26,6 +27,9 @@ class Artista
 
     #[ORM\OneToMany(targetEntity: Producto::class, mappedBy: 'artista')]
     private Collection $productos;
+
+    #[ORM\Column(type: Types::TEXT, nullable: true)]
+    private ?string $descripcion = null;
 
     public function __construct()
     {
@@ -103,6 +107,18 @@ class Artista
                 $producto->setArtista(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getDescripcion(): ?string
+    {
+        return $this->descripcion;
+    }
+
+    public function setDescripcion(?string $descripcion): static
+    {
+        $this->descripcion = $descripcion;
 
         return $this;
     }
