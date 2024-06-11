@@ -23,7 +23,8 @@ class ArtistaCrudController extends AbstractCrudController
             IdField::new('id')->hideOnForm(),
             TextField::new('nombre'),
             TextField::new('pais'),
-            TextField::new('ano')
+            TextField::new('ano'),
+            TextareaField::new('descripcion'),
 
         ];
     }
