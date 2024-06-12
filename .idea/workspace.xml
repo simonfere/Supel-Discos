@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en la configuración del IDE">
-      <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CarritoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CarritoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PedidoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PedidoController.php" afterDir="false" />
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Eliminada función inutilizada">
       <change beforePath="$PROJECT_DIR$/src/Entity/Artista.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Artista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/all_productos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_productos/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/carrito/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carrito/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/formato/artista.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/artista.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/formato/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
     </list>
@@ -301,47 +294,7 @@
       <workItem from="1718029565007" duration="6183000" />
       <workItem from="1718045641869" duration="1520000" />
       <workItem from="1718128982044" duration="7598000" />
-      <workItem from="1718218039207" duration="7066000" />
-    </task>
-    <task id="LOCAL-00049" summary="Creadas plantillas controllers para Formato, Manager y Pedido">
-      <option name="closed" value="true" />
-      <created>1710100932007</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100932007</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Cambios en README.md">
-      <option name="closed" value="true" />
-      <created>1710110422112</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1710110422113</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Modificado .gitignore (música)">
-      <option name="closed" value="true" />
-      <created>1717435003309</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1717435003309</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Cambios menores">
-      <option name="closed" value="true" />
-      <created>1717438582927</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1717438582927</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Definida vision (fallo en la ruta de imágenes)">
-      <option name="closed" value="true" />
-      <created>1717438635613</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1717438635613</updated>
+      <workItem from="1718218039207" duration="7454000" />
     </task>
     <task id="LOCAL-00054" summary="Añadido import de javascript para hacer funcional el navbar.html.twig">
       <option name="closed" value="true" />
@@ -695,7 +648,47 @@
       <option name="project" value="LOCAL" />
       <updated>1718145489048</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Cambios menores en la configuración del IDE">
+      <option name="closed" value="true" />
+      <created>1718228536567</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1718228536567</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Añadido footer">
+      <option name="closed" value="true" />
+      <created>1718228569562</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1718228569562</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Vuelta a la funcionalidad limitada del carrito y añadido footer">
+      <option name="closed" value="true" />
+      <created>1718228670632</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1718228670632</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Creada funcion para obtener un objeto con un id string">
+      <option name="closed" value="true" />
+      <created>1718228724320</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1718228724320</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Eliminada función inutilizada">
+      <option name="closed" value="true" />
+      <created>1718228737513</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1718228737513</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,10 +706,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadida la función para renderizar y hacer funcional la página de productos por artista" />
-    <MESSAGE value="Cambios menores en el estilo del título de la página" />
-    <MESSAGE value="Añadido link en artista para que lleve a la página creada anteriormente" />
-    <MESSAGE value="Configurado para que acceder al id del artista, ya que el producto devuelve el nombre" />
     <MESSAGE value="Añadida función para encontrar un producto por su artista" />
     <MESSAGE value="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo." />
     <MESSAGE value="Añadida función para mostrar otros productos relacionados" />
@@ -738,7 +727,11 @@
     <MESSAGE value="Añadida función para que solamente salgan los 8 primeros productos" />
     <MESSAGE value="Cambios pendientes de revisión (CARRITO NO FUNCIONA)" />
     <MESSAGE value="Cambios menores en la configuración del IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en la configuración del IDE" />
+    <MESSAGE value="Añadido footer" />
+    <MESSAGE value="Vuelta a la funcionalidad limitada del carrito y añadido footer" />
+    <MESSAGE value="Creada funcion para obtener un objeto con un id string" />
+    <MESSAGE value="Eliminada función inutilizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminada función inutilizada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
