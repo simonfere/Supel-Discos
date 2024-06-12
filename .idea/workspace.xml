@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Añadida la opción de mostrar la descripción del artista (si existe)">
+    <list default="true" id="4a982b4e-5171-41fb-978f-385c148f9d8f" name="Changes" comment="Cambios menores en la configuración del IDE">
       <change beforePath="$PROJECT_DIR$/.idea/Supel-Discos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Supel-Discos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DireccionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DireccionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/DireccionType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CarritoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CarritoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PedidoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PedidoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Artista.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Artista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductoRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/all_productos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_productos/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/carrito/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/carrito/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/direccion/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/direccion/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/formato/artista.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/artista.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/formato/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/formato/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/producto/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/producto/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,63 +300,8 @@
       <workItem from="1718010058878" duration="6122000" />
       <workItem from="1718029565007" duration="6183000" />
       <workItem from="1718045641869" duration="1520000" />
-      <workItem from="1718128982044" duration="7004000" />
-    </task>
-    <task id="LOCAL-00042" summary="Añadido el dropdown con los distintos formatos de los productos">
-      <option name="closed" value="true" />
-      <created>1710100730967</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100730967</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Desarrolladas las plantillas de producto, perfil y all_productos">
-      <option name="closed" value="true" />
-      <created>1710100770671</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100770671</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Creada la plantilla para mostrar todos los pedidos que ha realizado un usuario">
-      <option name="closed" value="true" />
-      <created>1710100795500</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100795500</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Migraciones varaias">
-      <option name="closed" value="true" />
-      <created>1710100822991</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100822991</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Migraciones varias">
-      <option name="closed" value="true" />
-      <created>1710100834899</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100834899</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Creados controladores para Formato, Pedido y Manager">
-      <option name="closed" value="true" />
-      <created>1710100870612</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100870612</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Creados CRUD controllers para LineaPedido y Pedido">
-      <option name="closed" value="true" />
-      <created>1710100901178</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1710100901178</updated>
+      <workItem from="1718128982044" duration="7598000" />
+      <workItem from="1718218039207" duration="7066000" />
     </task>
     <task id="LOCAL-00049" summary="Creadas plantillas controllers para Formato, Manager y Pedido">
       <option name="closed" value="true" />
@@ -691,7 +639,63 @@
       <option name="project" value="LOCAL" />
       <updated>1718144956549</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Eliminadas las opciones a eliminar (#4) del navbar.html.twig">
+      <option name="closed" value="true" />
+      <created>1718145194457</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145194457</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Eliminadas las opciones a eliminar (#3) del navbar.html.twig">
+      <option name="closed" value="true" />
+      <created>1718145209396</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145209396</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Eliminados el controlador y la plantilla del perfil (a eliminar #3)">
+      <option name="closed" value="true" />
+      <created>1718145339439</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145339439</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Eliminados el controlador y la plantilla de la dirección (RESUELTO #3)">
+      <option name="closed" value="true" />
+      <created>1718145406154</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145406154</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Añadida función para que solamente salgan los 8 primeros productos">
+      <option name="closed" value="true" />
+      <created>1718145442084</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145442084</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Cambios pendientes de revisión (CARRITO NO FUNCIONA)">
+      <option name="closed" value="true" />
+      <created>1718145472044</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145472044</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Cambios menores en la configuración del IDE">
+      <option name="closed" value="true" />
+      <created>1718145489048</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1718145489048</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,12 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creados los archivos para desarrollar el formulario de dirección" />
-    <MESSAGE value="fixed #1" />
-    <MESSAGE value="resuelto #1" />
-    <MESSAGE value="Cambios menores en carpeta del IDE" />
-    <MESSAGE value="Creada la plantilla de la página que muestra todos los productos de un artista" />
-    <MESSAGE value="Añadida la función para buscar un artista por su id" />
     <MESSAGE value="Añadida la función para renderizar y hacer funcional la página de productos por artista" />
     <MESSAGE value="Cambios menores en el estilo del título de la página" />
     <MESSAGE value="Añadido link en artista para que lleve a la página creada anteriormente" />
@@ -722,7 +720,6 @@
     <MESSAGE value="Añadida función para encontrar un producto por su artista" />
     <MESSAGE value="Configurada la página del producto individual. Queda abierto un issue para pasar los estilos a un css externo." />
     <MESSAGE value="Añadida función para mostrar otros productos relacionados" />
-    <MESSAGE value="Cambios menores en la configuración del IDE" />
     <MESSAGE value="Añadida función para que no salgan los productos siempre en el mismo orden en la página de todos los productos" />
     <MESSAGE value="Añadido link a hoja css externa (resuelto el issue #2) y añadida posible info adicional sobre el artista" />
     <MESSAGE value="Añadido path para cambiar dirección, cambios menores y eliminado el bucle con el número de pedidos realizados" />
@@ -734,7 +731,14 @@
     <MESSAGE value="Organizada la homepage, trasladando los estilos a un archivo externo homepage.css" />
     <MESSAGE value="Añadido link para acceder a los productos clicando en las imagenes" />
     <MESSAGE value="Añadida la opción de mostrar la descripción del artista (si existe)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadida la opción de mostrar la descripción del artista (si existe)" />
+    <MESSAGE value="Eliminadas las opciones a eliminar (#4) del navbar.html.twig" />
+    <MESSAGE value="Eliminadas las opciones a eliminar (#3) del navbar.html.twig" />
+    <MESSAGE value="Eliminados el controlador y la plantilla del perfil (a eliminar #3)" />
+    <MESSAGE value="Eliminados el controlador y la plantilla de la dirección (RESUELTO #3)" />
+    <MESSAGE value="Añadida función para que solamente salgan los 8 primeros productos" />
+    <MESSAGE value="Cambios pendientes de revisión (CARRITO NO FUNCIONA)" />
+    <MESSAGE value="Cambios menores en la configuración del IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores en la configuración del IDE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
