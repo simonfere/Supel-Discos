@@ -44,8 +44,8 @@ class PedidoController extends AbstractController
         ]);
     }
 
-    public function showAllPedidos () : Response
-    {
-        return $this->render('pedido/all.html.twig', []);
-    }
+//    public function showAllPedidos () : Response
+//    {
+//        return $this->render('pedido/all.html.twig', []);
+//    }
 }
