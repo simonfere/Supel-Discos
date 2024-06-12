@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Artista;
 use App\Entity\Formato;
 use App\Entity\LineaPedido;
 use App\Entity\Pedido;
@@ -26,6 +27,44 @@ class CarritoController extends AbstractController
         $carrito = $session->get('carrito', []);
 
         $formatos = $entityManager->getRepository(Formato::class)->findAll();
+
+        $productos = $entityManager->getRepository(Producto::class);
+
+//        $carrito = array_values($carrito2);
+
+//        print_r($carrito);
+
+        $finalProductosArray  = [];
+
+        $arrayProductos = [];
+
+        $productosFinales = [];
+
+//        for ($x = 0; $x < count($carrito); $x++) {
+//
+//            $productoTemp = $productos->findOneById($carrito[$x]['id']);
+//
+//            $arrayProductos[] = $productoTemp;
+//
+//        }
+
+//        print_r($arrayProductos);
+
+
+
+        for ($x = 0; $x < count($arrayProductos); $x++) {
+
+            $finalProductosArray [] = $arrayProductos[$x][0]['id'];
+
+        }
+
+
+        for ($x = 0; $x < count($finalProductosArray); $x++) {
+
+            $productosFinales[] = $productos->findOneById($finalProductosArray[$x]);
+        }
+
+        print_r($productosFinales);
 
         return $this->render('carrito/index.html.twig', [
             'carrito' => $carrito,
@@ -102,6 +141,6 @@ class CarritoController extends AbstractController
 
 
 
-        return new Response('GRACIAS POR COMPRAR EN SUPEL-DISCOS');
+        return new Response('GRACIAS POR COMPRAR EN SUPEL-DISCOS. SU NUMERO DE PEDIDO ES ' . $pedido->getId());
     }
 }
