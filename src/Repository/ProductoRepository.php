@@ -57,4 +57,15 @@ class ProductoRepository extends ServiceEntityRepository
         return $query->getResult();
     }
 
+    public function findOneById(string $id)
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT p.id FROM App\Entity\Producto p WHERE p.id=:id'
+        )->setParameter('id', $id);
+
+        return $query->getResult();
+    }
+
 }
